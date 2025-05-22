@@ -5,7 +5,6 @@ MODEL_PATH = "./sentiment_model_itog"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
-# Настройка меток (проверь, какие метки были при обучении)
 labels = ["Положительный", "Отрицательный", "Нейтральный"]
 
 def predict_sentiment(text: str) -> str:
