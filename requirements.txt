@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+safetensors
+kafka-python
+pydantic
+torch
+openpyxl
+python-dateutil
+psycopg2-binary
+sqlalchemy
